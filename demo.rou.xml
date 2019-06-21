@@ -1,0 +1,11 @@
+<routes>
+  <vType accel=".1" decel=".2" id="Tesla" length="2.0" maxSpeed="1.0" sigma="1" color="1,.3,.3"/>
+  <vType accel=".1" decel=".2" id="BMW" length="2.0" maxSpeed="1.0" sigma="1" color="1,1,1"/>
+  <vType accel=".1" decel=".2" id="Audi" length="2.0" maxSpeed="1.0" sigma="1" color=".3,.3,1"/>  
+
+  <route id="route0" edges="1to2 out"/>
+
+  <vehicle depart="10" departLane="0" id="1" route="route0" type="Tesla" />
+  <vehicle depart="20" departLane="0" id="2" route="route0" type="BMW" />
+  <vehicle depart="80" departLane="0" id="3" route="route0" type="Audi" />
+</routes>
